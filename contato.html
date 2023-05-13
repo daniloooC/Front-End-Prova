@@ -1,0 +1,113 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        #fundo {
+            background-color: darkblue;
+        }
+    </style>
+    <style>
+       #fundo-inferior {
+            text-align: center;
+            margin-top: 50px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 545px;
+            background-color: gray;
+        }
+        * {
+          box-sizing: border-box;
+          margin: 0;
+          padding: 0;
+          border: none;
+        }
+        #botoes {
+            text-align: center;
+            margin-top: 20xp;
+        }
+        .botao {
+            display: inline-block;
+            padding: 12px 24px;
+            font-size: 16px;
+            border: 2px solid black;
+            border-radius: 4px;
+        background-color: aliceblue;
+            color: black;
+            text-decoration: none;
+        }
+        textarea {
+  border: 2px solid black;
+}
+        .botao:hover {
+            background-color: aquamarine;
+        }
+        input {
+
+  width: 600px;
+}
+input {
+  width: 30%;
+}
+input {
+  height: 40px;
+}
+input {
+    border: 2px solid black;
+}
+.link-branco {
+            display: inline-block;
+            padding: 10px 20px;
+            color: aliceblue;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="fundo"> 
+        <img src="https://ucb.catolica.edu.br/portal/wp-content/uploads/2021/06/catolica-de-brasilia.svg" alt="">
+        <a href="index.html" class="link-branco">Home</a> 
+        <a href="https://ucb.catolica.edu.br/portal/"class="link-branco">Sobre</a>
+        <a href="https://ucb.catolica.edu.br/portal/"class="link-branco">Preços</a>
+        <a href="https://ucb.catolica.edu.br/portal/"class="link-branco">Serviços</a>
+        <a href="contato.html"class="link-branco">Contato</a>  
+    </div>
+        <div id="fundo"> 
+            <img src="https://ucb.catolica.edu.br/portal/wp-content/uploads/2021/06/catolica-de-brasilia.svg" alt="">
+            <a href="index.html">Home</a> 
+        </div>
+    </body>
+    
+    <div id="fundo-inferior">
+        <h1>Contato</h1>
+        <form action="contato.html">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="Nome" placeholder="Sem nome">
+    </form>
+    <form action="contato.html">
+        <label for="fone">Fone</label>
+        <input type="text" id="fone" name="Fone" placeholder="(xx) xxxxx xxxx">
+
+    </form>
+    <form action="contato.html">
+        <label for="email">Email</label>
+        <input type="text" id="email" name="Email" placeholder="e-mail@gmail.com">
+
+    </form>
+    <textarea name="Mensagem" id="mensagem" cols="30" rows="10" placeholder="MENSAGEM..."></textarea>
+        <form action="contato.html">
+        <a href="contato.html" class="botao">Limpar</a>
+        <a href="index.html" class="botao">Enviar</a>
+        </form>
+    </div>
+    
+    
+    
+    
+</body>
+</html>
+
