@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#fundo {
+    background-color: darkblue;
+}
+#fundo-inferior {
+    text-align: center;
+    margin-top: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 545px;
+    background-color: gray;
+}
+#botoes {
+    text-align: center;
+    margin-top: 20px;
+}
+.botao {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: aliceblue;
+    color: black;
+    text-decoration: none;
+}
+.botao:hover {
+    background-color: aquamarine;
+}
+#titulo {
+    
+    margin-top: 50px;
+}
+.link-branco {
+    display: inline-block;
+    padding: 10px 20px;
+    color: aliceblue;
+}
+#fundo {
+    background-color: darkblue;
+}
+#fundo-inferior {
+    text-align: center;
+    margin-top: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 545px;
+    background-color: gray;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+#botoes {
+    text-align: center;
+    margin-top: 20xp;
+}
+.botao {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+background-color: aliceblue;
+    color: black;
+    text-decoration: none;
+}
+textarea {
+border: 2px solid black;
+}
+.botao:hover {
+    background-color: aquamarine;
+}
+input {
+
+width: 600px;
+}
+input {
+width: 30%;
+}
+input {
+height: 40px;
+}
+input {
+border: 2px solid black;
+}
+.link-branco {
+    display: inline-block;
+    padding: 10px 20px;
+    color: aliceblue;
+}
